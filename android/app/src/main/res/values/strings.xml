@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">CS Android Assignment</string>
+    <string name="app_name_title">MOVIEBOX</string>
+    <string name="playing_now_title">Playing Now</string>
+    <string name="most_popular_title">Most popular</string>
+    <string name="overview_text_title">Overview</string>
+</resources>

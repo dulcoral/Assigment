@@ -1,0 +1,38 @@
+// All project dependencies should have their respective version number listed here
+ext {
+    // Kotlin
+    kotlin_version = '1.4.21'
+
+    // Support Libraries
+    appCompatVersion = '1.3.0'
+    androidCore = '1.5.0'
+    constraintLayoutVersion = "2.0.4"
+    recyclerviewVersion = "1.2.1"
+
+    // Network
+    retrofitVersion = "2.9.0"
+    gsonVersion = "2.8.2"
+    okhttpVersion = "3.14.9"
+
+    // Test dependencies
+    jUnitVersion = "4.13.2"
+    testRunnerVersion = '1.3.0'
+    espressoVersion = '3.3.0'
+    mockitoKotlinVersion = "2.2.0"
+    archCoreTestingVersion = "2.1.0"
+    mockitoVersion = "3.5.11"
+
+    // DI
+    daggerVersion = '2.35'
+
+    // RX
+    rxJavaVersion = "2.2.11"
+    rxAndroidVersion = "2.1.1"
+
+    // Image loader
+    glideVersion = "4.12.0"
+
+    // Navigation
+    navigationVersion = '2.3.5'
+
+}

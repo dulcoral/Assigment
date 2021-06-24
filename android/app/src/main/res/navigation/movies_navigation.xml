@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/movies_navigation"
+    app:startDestination="@id/movie_home_fragment">
+
+    <fragment
+        android:id="@+id/movie_home_fragment"
+        android:name="com.backbase.assignment.ui.MovieHomeFragment"
+        app:popUpTo="@+id/movie_detail_fragment"
+        app:popUpToInclusive="true"
+        tools:layout="@layout/fragment_movie_home">
+
+        <action
+            android:id="@+id/home_to_detail_fragment"
+            app:destination="@id/movie_detail_fragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/movie_detail_fragment"
+        android:name="com.backbase.assignment.ui.MovieDetailFragment"
+        tools:layout="@layout/fragment_movie_detail">
+        <argument
+            android:name="movieId"
+            app:argType="integer" />
+    </fragment>
+
+</navigation>
